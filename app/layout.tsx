@@ -10,19 +10,19 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "LuckiApps Docs",
   description: "Documentación oficial de LuckiApps - Utilidades, Juegos y Modelos Web",
-  generator: "v0.app",
+  generator: "luckiapps.com",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/public/logo.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/public/logo.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/public/logo.png",
         type: "image/svg+xml",
       },
     ],
